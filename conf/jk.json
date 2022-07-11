@@ -28,7 +28,7 @@
             "isOpen": true,
             "name": "jdjoy_open通用ID任务",
             "envName": "comm_activityIDList",
-            "scriptPath": "/ql/scripts/jd_joyjd_open.js"
+            "scriptPath": "jd_joyjd_open.js"
          },
         {
             "isOpen": true,
@@ -112,15 +112,26 @@
             "isOpen": true,
             "name": "PKC关注有礼",
             "envName":"PKC_GZYL",
-            "scriptPath":"/ql/repo/gd/jk_script/pkc_gzyl.js"
+            "scriptPath":"/ql/data/repo/gd/jk_script/pkc_gzyl.js"
+        },
+        {
+            "isOpen": true,
+            "name": "半点京豆雨",
+            "envName":"jd_redrain_half_url",
+            "scriptPath":"d_redrain_half.js"
         },
         {
             "isOpen": true,
             "name": "PKC关注有礼-特效",
             "envName":"PKC_TXGZYL",
-            "scriptPath":"/ql/repo/gd/jk_script/pkc_txgzyl.js"
+            "scriptPath":"/ql/data/repo/gd/jk_script/pkc_txgzyl.js"
         }
- 
+        {
+            "isOpen": true,
+            "name": "LZ粉丝互动",
+            "envName":"jd_wxFansInterActionActivity_activityId",
+            "scriptPath":"jd_wxFansInterActionActivity.js"
+        }
    ]
     
 }
